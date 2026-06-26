@@ -7,10 +7,10 @@ export default defineConfig({
   server: {
     proxy : {
       '/api' : {
-        target : 'https://ecommerce-backend-4e2u.onrender.com/'
+        target : 'https://ecommerce-backend-4e2u.onrender.com'
       },
       '/images' : {
-        target : 'https://ecommerce-backend-4e2u.onrender.com/'
+        target : 'https://ecommerce-backend-4e2u.onrender.com'
       }
     }
   }
