@@ -10,7 +10,7 @@ export default defineConfig({
         target : 'https://ecommerce-backend-4e2u.onrender.com/'
       },
       '/images' : {
-        target : 'hhttps://ecommerce-backend-4e2u.onrender.com/'
+        target : 'https://ecommerce-backend-4e2u.onrender.com/'
       }
     }
   }
