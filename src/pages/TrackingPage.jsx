@@ -1,6 +1,6 @@
 import './TrackingPage.css'
 import { Header } from '../component/Header';
-import axios from 'axios';
+import axios from "../utils/axios"
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import dayjs from 'dayjs';

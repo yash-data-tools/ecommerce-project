@@ -4,7 +4,7 @@ import { CheckoutPage } from './pages/checkout/CheckoutPage'
 import { OrdersPage } from './pages/orders/OrdersPage'
 import { TrackingPage } from './pages/TrackingPage'
 import { NotFound } from './pages/NotFound'
-import axios from 'axios'
+import axios from "./utils/axios"
 import { useEffect, useState } from 'react'
 import './App.css'
 

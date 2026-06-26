@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 import buyAgain from '../../assets/images/icons/buy-again.png'
 import { Fragment } from "react";
-import axios from 'axios'
+import axios from "../../utils/axios"
 
 export function OrderDetails({ order, loadCart }) {
   window.axios = axios;
