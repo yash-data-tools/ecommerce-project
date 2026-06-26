@@ -13,7 +13,7 @@ function App() {
 
 
   const loadCart = async () => {
-    const response = await axios.get('/api/cart-items?expand=product');
+    const response = await axios.get('https://ecommerce-backend-4e2u.onrender.com/api/cart-items?expand=product');
     setCart(response.data);
   }
   useEffect(() => {
