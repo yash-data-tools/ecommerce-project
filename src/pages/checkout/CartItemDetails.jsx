@@ -1,5 +1,5 @@
 import { formatMoney } from "../../utils/money";
-import axios from "axios";
+import axios from "../../utils/axios";
 import { useState } from "react";
 
 

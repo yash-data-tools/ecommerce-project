@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "../../utils/axios";
 import checkmark from '../../assets/images/icons/checkmark.png'
 import { formatMoney } from "../../utils/money";
 import { useState } from "react";
